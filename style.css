@@ -1,0 +1,35 @@
+
+html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, rgb(218, 191, 243), rgb(228, 217, 241));
+  }
+.courses {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.courses > *:first-child {
+    margin-left: 0;
+}
+
+.courses > *:last-child {
+    margin-right: 0;
+}
+
+.courses > * {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.course-item-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+.course-item-value {
+    font-size: 32px;
+    font-weight: 300;
+}
